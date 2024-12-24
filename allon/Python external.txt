@@ -9,3 +9,10 @@ docker login
 docker tag sre srikanth14388/srikanth
 docker push srikanth14388/srikanth
 
+code dockerfile:- FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY hello.py /app
+
+CMD ["python", "hello.py"]
