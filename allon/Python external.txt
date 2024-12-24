@@ -1,0 +1,11 @@
+Python 
+Create folder and two file 1)dockerfile 2) first.py
+Ctrl s for docker and firast.py
+Open terminal
+docker build -t sre .
+docker image
+docker run sre
+docker login
+docker tag sre srikanth14388/srikanth
+docker push srikanth14388/srikanth
+
